@@ -1,0 +1,63 @@
+public class Main{
+public static void main(String[] args){
+String name="BAYYA CHINNU";
+int myNum=2;
+myNum=4202;
+float myFloatNum=2;
+myFloatNum=4202;
+char myLetter='B';
+myLetter='C';
+boolean myBool=false;
+myBool=true;
+String myText="HI";
+myText="HELLO WORLD";
+String firstName="Bayya";
+String lastName="Chinnu";
+String fullName=firstName+lastName;
+int x=5;
+int y=6;
+int z=10,w=20;
+int p,q,r;
+p=q=r=100;
+System.out.println(name);
+System.out.println(myNum);
+System.out.println(myFloatNum);
+System.out.println(myLetter);
+System.out.println(myBool);
+System.out.println(myText);
+System.out.println("HELLO " + name);
+System.out.println(firstName);
+System.out.println(lastName);
+System.out.println(fullName);
+System.out.println(x+y);
+System.out.println(x*y);
+System.out.println(x%y);
+System.out.println(x/y);
+System.out.println(x-y);
+System.out.println(z+w);
+System.out.println(z*w);
+System.out.println(z-w);
+System.out.println(p+q+r);
+}
+}
+
+OUTPUT:
+BAYYA CHINNU
+4202
+4202.0
+C
+true
+HELLO WORLD
+HELLO BAYYA CHINNU
+Bayya
+Chinnu
+BayyaChinnu
+11
+30
+5
+0
+-1
+30
+200
+-10
+300
